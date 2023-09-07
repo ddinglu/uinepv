@@ -1,5 +1,10 @@
-% Test the first NEPv; 3-by-3 example, k = 1 or 2;
-% Level-shifted SCF
+% NEPv for sum of trace ratio optimization (7.1): 
+%
+% 	max (1-alpha) * [tr(X'AX)/tr(X'BX)] + alpha *[tr(X'D)/sqrt(tr(X'BX))]
+% 	s.t. X'X = I.
+%
+% Test level-shifted SCF on 3-by-3 examples with k = 1 and k = 2.
+%
 
 clear; close all;
 set(0, 'DefaultLegendInterpreter', 'latex');

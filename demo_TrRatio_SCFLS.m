@@ -1,8 +1,10 @@
-% NEPv 7.2, level-shifted SCF 
-% 3-by-3 example, k = 1 and k = 2
-% phi(X) = tr(X^TAX)/tr(X^TBX)^theta
-% psi(X) = 1/tr(X^TBX)^theta
-
+% NEPv for trace-ratio optimization (7.2):
+%
+% 	max [tr(X'AX+X'D)]/[tr(X'BX)^theta]
+% 	s.t. X'X = I.
+%
+% Test level-shifted SCF on 3-by-3 examples with k = 1 and k = 2.
+%
 
 clear; close all;
 set(0, 'DefaultLegendInterpreter', 'latex');

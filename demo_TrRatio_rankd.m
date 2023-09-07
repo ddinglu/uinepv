@@ -1,9 +1,9 @@
-% Trace ratio optimization (7.2):
+% NEPv for trace-ratio optimization (7.2):
 %
 % 	max [tr(X'AX+X'D)]/[tr(X'BX)^theta]
 % 	s.t. X'X = I.
 %
-% Test D with full and reduced column.
+% Test D with full and reduced column rank.
 %
 
 close all; clear all;

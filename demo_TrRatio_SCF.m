@@ -1,4 +1,10 @@
-% Test the first NEPv; 3-by-3 example, k = 1 or 2
+% NEPv for trace-ratio optimization (7.2):
+%
+% 	max [tr(X'AX+X'D)]/[tr(X'BX)^theta]
+% 	s.t. X'X = I.
+%
+% Test SCF on 3-by-3 examples with k = 1 and k = 2.
+%
 
 close all; clear all;
 set(0,'defaultTextInterpreter','latex');

@@ -1,9 +1,9 @@
-% Sum of trace ratio optimization (7.1): 
+% NEPv for sum of trace-ratio optimization (7.1): 
 %
 % 	max (1-alpha) * [tr(X'AX)/tr(X'BX)] + alpha *[tr(X'D)/sqrt(tr(X'BX))]
 % 	s.t. X'X = I.
 %
-% Test D with full and reduced column.
+% Test D with full and reduced column rank.
 %
 
 close all; clear all;
